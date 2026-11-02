@@ -3,17 +3,17 @@
   "experiment_id": "E008",
   "files": {
     "LICENSE": "02f2a1ebdd02682c0fa3df335f34827791478515d5e797a4257d8d06fff7d9f7",
-    "README.md": "b19c4cda7d5f9997fa3aab245563bcfc476f620e3979154d88e289b8a351e6da",
+    "README.md": "844eb2942c13db9c6daf1ba816d773fa6721059a8bbd4327e30a0e7a526f6b13",
     "THIRD_PARTY.md": "bdeaca652751f786aadb644c5c689e57c9a3c9608d21316bbed2169ec259e048",
-    "assets/comparison.png": "477fc0b5eab8f98d244337278d0016305dbae004c5ac38bc87a40d61a0ecdb81",
-    "assets/comparison.svg": "80a80b546a3b8184ca08f65ed79a1f01c2b71f565ec076a380d0f25898709d0d",
+    "assets/comparison.png": "0b6df1cf11bbbc6bc6e2a74aa10406e01eaf0fa4627e87c0c90dbf5e4d5f2c1d",
+    "assets/comparison.svg": "7ace86be1ac946b66d4d8247b5aae04103f9b8c1bed05f5349c4507585898775",
     "context_data.py": "aabff57cc99d4e73be6ac2816cb44997a51d6fd82b98ca8e74e99c8db40e794b",
     "context_engine.py": "a3e9aacd4586f7f1fc395b791a3a07e7d53652e2338b8d31beea0a23cd9118da",
     "demo.html": "9b5ee63c91a9f0de1a9913fca566538399408eeda22af29fa885c36edb9e3852",
     "demo.py": "98b8dcdf0d0b7a6ec7e1f397cc15c67f0ec2a93b2387ffb494c25afc96c6ea47",
     "publishing/report.html": "02fe114e5f926998d8b0e4aa71f08f9ae828bef92131d7851c3ad21f5bd5b188",
     "publishing/report.md": "85d0d55568b2a5af17ee55110e64ac7d051230d0d7e9f039c8298ab0cebb5a0a",
-    "publishing/report.pdf": "ab7355dbe4f5b03309426204d9c152cad6f4ca97aaa60afd216eb08e25b7bfbd",
+    "publishing/report.pdf": "d2228336cb5f65ecba33c636b8d317331659ad51012cb74e14a0d1b8b86a1882",
     "requirements.lock": "dd414c1b64b3106f62ad8edd60e2944dc179830b64798e35f9f212a699baafdf",
     "results.json": "ce6eaad4697686dab138a0b388b12fcb0184ff8a7b9641f31627bc9aebea79ad"
   }

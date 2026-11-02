@@ -2,7 +2,7 @@
 
 An offline evidence-selection demo and saved results from E008, by Maciej Ciezki. Original synthetic refunds, service bookings and invoice approvals. No real customer data, API credentials or external actions.
 
-Read the [full report (PDF)](publishing/report.pdf), [Markdown](publishing/report.md) or [HTML](publishing/report.html). The report is the same final publication artifact; its private-workspace commands are separate from the public `demo.py` command below.
+Read the [published article](https://maciejciezki.substack.com/p/i-gave-ai-124-files-then-i-tried) or the [full report (PDF)](publishing/report.pdf), [Markdown](publishing/report.md) or [HTML](publishing/report.html). The report is the same final publication artifact; its private-workspace commands are separate from the public `demo.py` command below.
 
 ## Try it
 
