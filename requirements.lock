@@ -1,0 +1,2 @@
+# No external packages. Python standard library only.
+# Tested with CPython 3.9.6 (macOS arm64) and 3.14.7 (macOS arm64).

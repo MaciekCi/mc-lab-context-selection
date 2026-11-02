@@ -1,0 +1,15 @@
+{
+  "classification": "allowlisted original-work export",
+  "experiment_id": "E008",
+  "files": {
+    "LICENSE": "02f2a1ebdd02682c0fa3df335f34827791478515d5e797a4257d8d06fff7d9f7",
+    "README.md": "eb07411e5e52ed3be900dc3c66a658d7e103fae9fd23146ea5e3e3527ba74339",
+    "THIRD_PARTY.md": "bdeaca652751f786aadb644c5c689e57c9a3c9608d21316bbed2169ec259e048",
+    "context_data.py": "aabff57cc99d4e73be6ac2816cb44997a51d6fd82b98ca8e74e99c8db40e794b",
+    "context_engine.py": "a3e9aacd4586f7f1fc395b791a3a07e7d53652e2338b8d31beea0a23cd9118da",
+    "demo.html": "9b5ee63c91a9f0de1a9913fca566538399408eeda22af29fa885c36edb9e3852",
+    "demo.py": "98b8dcdf0d0b7a6ec7e1f397cc15c67f0ec2a93b2387ffb494c25afc96c6ea47",
+    "requirements.lock": "dd414c1b64b3106f62ad8edd60e2944dc179830b64798e35f9f212a699baafdf",
+    "results.json": "ce6eaad4697686dab138a0b388b12fcb0184ff8a7b9641f31627bc9aebea79ad"
+  }
+}

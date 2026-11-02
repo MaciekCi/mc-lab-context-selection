@@ -1,0 +1,599 @@
+{
+  "classification": "real",
+  "experiment_id": "E008",
+  "run_id": "20261102-e008-v1",
+  "groups": [
+    {
+      "model": "luna",
+      "strategy": "whole",
+      "label": "Whole folder",
+      "trials": 96,
+      "supported": 94,
+      "decision_correct": 94,
+      "answer_api_usd": 0.164853,
+      "standalone_setup_usd": 0,
+      "standalone_total_usd": 0.164853,
+      "protocol_half_shared_setup_usd": 0.0,
+      "usd_per_supported": 0.001753755319148936,
+      "answer_usd_per_supported": 0.001753755319148936,
+      "hypothetical_uncached_answer_usd": 0.1328872,
+      "median_seconds": 2.2727207078505307,
+      "p95_seconds": 3.8172198333386334,
+      "mean_context_bytes": 66197.33333333333,
+      "usage": {
+        "input": 1276952,
+        "output": 10384,
+        "cached": 0,
+        "cache_write": 1276664
+      },
+      "evidence_complete": 96,
+      "invalid_schema": 0,
+      "invented_citation_outputs": 0,
+      "correct_but_citations_failed": 0,
+      "incorrect_approvals": 2,
+      "missed_clarifications": 0,
+      "decision_confusion": {
+        "decline_to_decline": 33,
+        "approve_to_approve": 38,
+        "clarify_to_clarify": 24,
+        "decline_to_approve": 1
+      },
+      "errors": 0,
+      "difference_vs_whole_95pct_pp": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "model": "luna",
+      "strategy": "search",
+      "label": "Keyword search",
+      "trials": 96,
+      "supported": 28,
+      "decision_correct": 52,
+      "answer_api_usd": 0.014205999999999998,
+      "standalone_setup_usd": 0,
+      "standalone_total_usd": 0.014205999999999998,
+      "protocol_half_shared_setup_usd": 0.0,
+      "usd_per_supported": 0.0005073571428571428,
+      "answer_usd_per_supported": 0.0005073571428571428,
+      "hypothetical_uncached_answer_usd": 0.014162900000000003,
+      "median_seconds": 2.9547053748276086,
+      "p95_seconds": 4.54469017760735,
+      "mean_context_bytes": 1735.6875,
+      "usage": {
+        "input": 58444,
+        "output": 16637,
+        "cached": 0,
+        "cache_write": 0
+      },
+      "evidence_complete": 32,
+      "invalid_schema": 0,
+      "invented_citation_outputs": 0,
+      "correct_but_citations_failed": 24,
+      "incorrect_approvals": 5,
+      "missed_clarifications": 0,
+      "decision_confusion": {
+        "decline_to_decline": 14,
+        "approve_to_approve": 16,
+        "clarify_to_clarify": 24,
+        "decline_to_approve": 3,
+        "decline_to_clarify": 17,
+        "approve_to_clarify": 20,
+        "approve_to_decline": 2
+      },
+      "errors": 0,
+      "difference_vs_whole_95pct_pp": [
+        -84.61538461538461,
+        -52.9985294117647
+      ]
+    },
+    {
+      "model": "luna",
+      "strategy": "linked",
+      "label": "Linked-record search",
+      "trials": 96,
+      "supported": 96,
+      "decision_correct": 96,
+      "answer_api_usd": 0.013461999999999997,
+      "standalone_setup_usd": 0,
+      "standalone_total_usd": 0.013461999999999997,
+      "protocol_half_shared_setup_usd": 0.0,
+      "usd_per_supported": 0.00014022916666666662,
+      "answer_usd_per_supported": 0.00014022916666666662,
+      "hypothetical_uncached_answer_usd": 0.0134107,
+      "median_seconds": 2.229443521089852,
+      "p95_seconds": 3.3690409477986396,
+      "mean_context_bytes": 2434.4166666666665,
+      "usage": {
+        "input": 76522,
+        "output": 11517,
+        "cached": 0,
+        "cache_write": 0
+      },
+      "evidence_complete": 96,
+      "invalid_schema": 0,
+      "invented_citation_outputs": 0,
+      "correct_but_citations_failed": 0,
+      "incorrect_approvals": 0,
+      "missed_clarifications": 0,
+      "decision_confusion": {
+        "decline_to_decline": 34,
+        "approve_to_approve": 38,
+        "clarify_to_clarify": 24
+      },
+      "errors": 0,
+      "difference_vs_whole_95pct_pp": [
+        0.0,
+        5.319148936170213
+      ]
+    },
+    {
+      "model": "luna",
+      "strategy": "brief",
+      "label": "Reusable brief",
+      "trials": 96,
+      "supported": 93,
+      "decision_correct": 93,
+      "answer_api_usd": 0.017634000000000004,
+      "standalone_setup_usd": 0.150244,
+      "standalone_total_usd": 0.167878,
+      "protocol_half_shared_setup_usd": 0.075122,
+      "usd_per_supported": 0.0018051397849462366,
+      "answer_usd_per_supported": 0.00018961290322580649,
+      "hypothetical_uncached_answer_usd": 0.0235393,
+      "median_seconds": 2.12605591660738,
+      "p95_seconds": 3.7344581042621288,
+      "mean_context_bytes": 5043.333333333333,
+      "usage": {
+        "input": 183928,
+        "output": 10293,
+        "cached": 91820,
+        "cache_write": 91820
+      },
+      "evidence_complete": 96,
+      "invalid_schema": 0,
+      "invented_citation_outputs": 0,
+      "correct_but_citations_failed": 0,
+      "incorrect_approvals": 3,
+      "missed_clarifications": 0,
+      "decision_confusion": {
+        "decline_to_decline": 33,
+        "approve_to_approve": 38,
+        "clarify_to_clarify": 24,
+        "decline_to_approve": 1
+      },
+      "errors": 0,
+      "difference_vs_whole_95pct_pp": [
+        -6.758292383292383,
+        4.0
+      ]
+    },
+    {
+      "model": "luna",
+      "strategy": "hybrid",
+      "label": "Brief + linked search",
+      "trials": 96,
+      "supported": 95,
+      "decision_correct": 96,
+      "answer_api_usd": 0.03299200000000002,
+      "standalone_setup_usd": 0.150244,
+      "standalone_total_usd": 0.183236,
+      "protocol_half_shared_setup_usd": 0.075122,
+      "usd_per_supported": 0.0019288,
+      "answer_usd_per_supported": 0.000347284210526316,
+      "hypothetical_uncached_answer_usd": 0.028920000000000015,
+      "median_seconds": 2.0340226253829896,
+      "p95_seconds": 5.043940916756168,
+      "mean_context_bytes": 7477.75,
+      "usage": {
+        "input": 241130,
+        "output": 9614,
+        "cached": 17381,
+        "cache_write": 223461
+      },
+      "evidence_complete": 96,
+      "invalid_schema": 0,
+      "invented_citation_outputs": 1,
+      "correct_but_citations_failed": 1,
+      "incorrect_approvals": 0,
+      "missed_clarifications": 0,
+      "decision_confusion": {
+        "decline_to_decline": 34,
+        "approve_to_approve": 38,
+        "clarify_to_clarify": 24
+      },
+      "errors": 0,
+      "difference_vs_whole_95pct_pp": [
+        -2.127659574468085,
+        4.761904761904762
+      ]
+    },
+    {
+      "model": "sol",
+      "strategy": "whole",
+      "label": "Whole folder",
+      "trials": 96,
+      "supported": 96,
+      "decision_correct": 96,
+      "answer_api_usd": 3.259801999999998,
+      "standalone_setup_usd": 0,
+      "standalone_total_usd": 3.259801999999998,
+      "protocol_half_shared_setup_usd": 0.0,
+      "usd_per_supported": 0.03395627083333331,
+      "answer_usd_per_supported": 0.03395627083333331,
+      "hypothetical_uncached_answer_usd": 2.621434000000001,
+      "median_seconds": 2.3182580829896033,
+      "p95_seconds": 3.752329177087173,
+      "mean_context_bytes": 66197.33333333333,
+      "usage": {
+        "input": 1276952,
+        "output": 6753,
+        "cached": 0,
+        "cache_write": 1276664
+      },
+      "evidence_complete": 96,
+      "invalid_schema": 0,
+      "invented_citation_outputs": 0,
+      "correct_but_citations_failed": 0,
+      "incorrect_approvals": 0,
+      "missed_clarifications": 0,
+      "decision_confusion": {
+        "decline_to_decline": 34,
+        "approve_to_approve": 38,
+        "clarify_to_clarify": 24
+      },
+      "errors": 0,
+      "difference_vs_whole_95pct_pp": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "model": "sol",
+      "strategy": "search",
+      "label": "Keyword search",
+      "trials": 96,
+      "supported": 32,
+      "decision_correct": 55,
+      "answer_api_usd": 0.19009800000000004,
+      "standalone_setup_usd": 0,
+      "standalone_total_usd": 0.19009800000000004,
+      "protocol_half_shared_setup_usd": 0.0,
+      "usd_per_supported": 0.005940562500000001,
+      "answer_usd_per_supported": 0.005940562500000001,
+      "hypothetical_uncached_answer_usd": 0.19009800000000004,
+      "median_seconds": 2.40311695811525,
+      "p95_seconds": 4.9687639271384105,
+      "mean_context_bytes": 1735.6875,
+      "usage": {
+        "input": 58444,
+        "output": 7321,
+        "cached": 0,
+        "cache_write": 0
+      },
+      "evidence_complete": 32,
+      "invalid_schema": 0,
+      "invented_citation_outputs": 0,
+      "correct_but_citations_failed": 23,
+      "incorrect_approvals": 0,
+      "missed_clarifications": 0,
+      "decision_confusion": {
+        "decline_to_decline": 16,
+        "approve_to_approve": 15,
+        "clarify_to_clarify": 24,
+        "decline_to_clarify": 18,
+        "approve_to_clarify": 23
+      },
+      "errors": 0,
+      "difference_vs_whole_95pct_pp": [
+        -83.6734693877551,
+        -48.07692307692308
+      ]
+    },
+    {
+      "model": "sol",
+      "strategy": "linked",
+      "label": "Linked-record search",
+      "trials": 96,
+      "supported": 96,
+      "decision_correct": 96,
+      "answer_api_usd": 0.22000400000000003,
+      "standalone_setup_usd": 0,
+      "standalone_total_usd": 0.22000400000000003,
+      "protocol_half_shared_setup_usd": 0.0,
+      "usd_per_supported": 0.0022917083333333335,
+      "answer_usd_per_supported": 0.0022917083333333335,
+      "hypothetical_uncached_answer_usd": 0.22000400000000003,
+      "median_seconds": 2.2415358747616407,
+      "p95_seconds": 3.36151720846165,
+      "mean_context_bytes": 2434.4166666666665,
+      "usage": {
+        "input": 76522,
+        "output": 6696,
+        "cached": 0,
+        "cache_write": 0
+      },
+      "evidence_complete": 96,
+      "invalid_schema": 0,
+      "invented_citation_outputs": 0,
+      "correct_but_citations_failed": 0,
+      "incorrect_approvals": 0,
+      "missed_clarifications": 0,
+      "decision_confusion": {
+        "decline_to_decline": 34,
+        "approve_to_approve": 38,
+        "clarify_to_clarify": 24
+      },
+      "errors": 0,
+      "difference_vs_whole_95pct_pp": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "model": "sol",
+      "strategy": "brief",
+      "label": "Reusable brief",
+      "trials": 96,
+      "supported": 96,
+      "decision_correct": 96,
+      "answer_api_usd": 0.308686,
+      "standalone_setup_usd": 0.150244,
+      "standalone_total_usd": 0.45893,
+      "protocol_half_shared_setup_usd": 0.075122,
+      "usd_per_supported": 0.004780520833333334,
+      "answer_usd_per_supported": 0.003215479166666667,
+      "hypothetical_uncached_answer_usd": 0.4372060000000002,
+      "median_seconds": 2.3502151667140425,
+      "p95_seconds": 6.277465228530578,
+      "mean_context_bytes": 5043.333333333333,
+      "usage": {
+        "input": 183928,
+        "output": 6935,
+        "cached": 91820,
+        "cache_write": 91820
+      },
+      "evidence_complete": 96,
+      "invalid_schema": 0,
+      "invented_citation_outputs": 0,
+      "correct_but_citations_failed": 0,
+      "incorrect_approvals": 0,
+      "missed_clarifications": 0,
+      "decision_confusion": {
+        "decline_to_decline": 34,
+        "approve_to_approve": 38,
+        "clarify_to_clarify": 24
+      },
+      "errors": 0,
+      "difference_vs_whole_95pct_pp": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "model": "sol",
+      "strategy": "hybrid",
+      "label": "Brief + linked search",
+      "trials": 96,
+      "supported": 96,
+      "decision_correct": 96,
+      "answer_api_usd": 0.6261069999999999,
+      "standalone_setup_usd": 0.150244,
+      "standalone_total_usd": 0.7763509999999998,
+      "protocol_half_shared_setup_usd": 0.075122,
+      "usd_per_supported": 0.00808698958333333,
+      "answer_usd_per_supported": 0.0065219479166666655,
+      "hypothetical_uncached_answer_usd": 0.54737,
+      "median_seconds": 2.1842444999478756,
+      "p95_seconds": 3.4368783853203055,
+      "mean_context_bytes": 7477.75,
+      "usage": {
+        "input": 241130,
+        "output": 6511,
+        "cached": 17381,
+        "cache_write": 223461
+      },
+      "evidence_complete": 96,
+      "invalid_schema": 0,
+      "invented_citation_outputs": 0,
+      "correct_but_citations_failed": 0,
+      "incorrect_approvals": 0,
+      "missed_clarifications": 0,
+      "decision_confusion": {
+        "decline_to_decline": 34,
+        "approve_to_approve": 38,
+        "clarify_to_clarify": 24
+      },
+      "errors": 0,
+      "difference_vs_whole_95pct_pp": [
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "size_diagnostic": [
+    {
+      "model": "luna",
+      "trials": 24,
+      "smaller_supported": 24,
+      "full_supported": 24,
+      "smaller_answer_usd": 0.010540999999999997,
+      "full_answer_usd": 0.041163,
+      "smaller_median_seconds": 1.860020750099793,
+      "full_median_seconds": 2.2616702916342764
+    },
+    {
+      "model": "sol",
+      "trials": 24,
+      "smaller_supported": 24,
+      "full_supported": 24,
+      "smaller_answer_usd": 0.202426,
+      "full_answer_usd": 0.814196,
+      "smaller_median_seconds": 2.1800518534798177,
+      "full_median_seconds": 2.2206992501784115
+    }
+  ],
+  "preparation_usd": 0.150244,
+  "total_actual_usd": 5.85275,
+  "reserved_usd": 0.0,
+  "requests": 1131,
+  "prompts_hash_verified": 1131,
+  "distinct_heldout_cases": 48,
+  "rule_pattern_clusters": 30,
+  "corpora": {
+    "refunds": {
+      "documents": 124,
+      "bytes": 65933
+    },
+    "bookings": {
+      "documents": 124,
+      "bytes": 66911
+    },
+    "invoices": {
+      "documents": 124,
+      "bytes": 65748
+    }
+  },
+  "break_even_questions": {
+    "luna-brief": 98,
+    "luna-hybrid": 110,
+    "sol-brief": 5,
+    "sol-hybrid": 6
+  },
+  "per_family": {
+    "luna-refunds": {
+      "whole": {
+        "supported": 32,
+        "decisions": 32
+      },
+      "search": {
+        "supported": 0,
+        "decisions": 16
+      },
+      "linked": {
+        "supported": 32,
+        "decisions": 32
+      },
+      "brief": {
+        "supported": 32,
+        "decisions": 32
+      },
+      "hybrid": {
+        "supported": 31,
+        "decisions": 32
+      }
+    },
+    "luna-bookings": {
+      "whole": {
+        "supported": 31,
+        "decisions": 31
+      },
+      "search": {
+        "supported": 28,
+        "decisions": 28
+      },
+      "linked": {
+        "supported": 32,
+        "decisions": 32
+      },
+      "brief": {
+        "supported": 29,
+        "decisions": 29
+      },
+      "hybrid": {
+        "supported": 32,
+        "decisions": 32
+      }
+    },
+    "luna-invoices": {
+      "whole": {
+        "supported": 31,
+        "decisions": 31
+      },
+      "search": {
+        "supported": 0,
+        "decisions": 8
+      },
+      "linked": {
+        "supported": 32,
+        "decisions": 32
+      },
+      "brief": {
+        "supported": 32,
+        "decisions": 32
+      },
+      "hybrid": {
+        "supported": 32,
+        "decisions": 32
+      }
+    },
+    "sol-refunds": {
+      "whole": {
+        "supported": 32,
+        "decisions": 32
+      },
+      "search": {
+        "supported": 0,
+        "decisions": 15
+      },
+      "linked": {
+        "supported": 32,
+        "decisions": 32
+      },
+      "brief": {
+        "supported": 32,
+        "decisions": 32
+      },
+      "hybrid": {
+        "supported": 32,
+        "decisions": 32
+      }
+    },
+    "sol-bookings": {
+      "whole": {
+        "supported": 32,
+        "decisions": 32
+      },
+      "search": {
+        "supported": 32,
+        "decisions": 32
+      },
+      "linked": {
+        "supported": 32,
+        "decisions": 32
+      },
+      "brief": {
+        "supported": 32,
+        "decisions": 32
+      },
+      "hybrid": {
+        "supported": 32,
+        "decisions": 32
+      }
+    },
+    "sol-invoices": {
+      "whole": {
+        "supported": 32,
+        "decisions": 32
+      },
+      "search": {
+        "supported": 0,
+        "decisions": 8
+      },
+      "linked": {
+        "supported": 32,
+        "decisions": 32
+      },
+      "brief": {
+        "supported": 32,
+        "decisions": 32
+      },
+      "hybrid": {
+        "supported": 32,
+        "decisions": 32
+      }
+    }
+  },
+  "score_sha256": "d03f086be6005a1f6fa4d7104473d71dd63e32b54b7d4ddce2c238e0d90d5834"
+}
