@@ -2,6 +2,8 @@
 
 An offline evidence-selection demo and saved results from E008, by Maciej Ciezki. Original synthetic refunds, service bookings and invoice approvals. No real customer data, API credentials or external actions.
 
+Read the [full report (PDF)](publishing/report.pdf), [Markdown](publishing/report.md) or [HTML](publishing/report.html). The report is the same final publication artifact; its private-workspace commands are separate from the public `demo.py` command below.
+
 ## Try it
 
 Open `demo.html` in a browser to compare saved outputs. The explorer works offline and makes no API calls. It contains measured model answers, not a live AI service.
